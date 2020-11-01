@@ -8,10 +8,14 @@ il contient également une base de donnée mysql sur laquelle sont enregistrés 
   Création d'une base donnée <b>webtest</b> sous mysql
 </p>
 <p>
-  Création d'une table autor<br/>
+  Création d'une table <b>autor</b><br/>
   <img src="table_author.PNG" />
 </p>
 <p>
-  Création d'une table book<br/>
+  Création d'une table <b>book</b><br/>
   <img src="table_book.PNG" />
+</p>
+<p>
+  Arborescence du client et du serveur
+  <img src="arborescence_du_projet.PNG" />
 </p>
