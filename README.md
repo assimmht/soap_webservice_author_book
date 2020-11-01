@@ -4,3 +4,4 @@
 Le service web est composé d'un client java et d'un serveur soap sous l'environnement netbeans.<br/>
 il contient également une base de donnée mysql sur laquelle sont enregistrés les auteurs et l'ensemble des livres qu'ils ont publiés.
 </p>
+<img src="Arborescence du projet.PNG" />
