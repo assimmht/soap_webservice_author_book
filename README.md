@@ -24,3 +24,11 @@ il contient également une base de donnée mysql sur laquelle sont enregistrés 
   Pour exécuter le projet il faut établir une connexion vers vers la base de donnée <b>webtest</b> voir image ci-dessous
    <img src="creation_connexion.PNG" />
 </p>
+<p>
+  Exécuter <b>clean and build</b> sous le server et ensuite exécuter <b>deploy</b> pour que le service web soit prêt à recevoir les requêtes.
+</p>
+<p>
+  Enfin pour tester le service web exécuter <b>clean and build</b> sous le client et ensuite exécuter <b>Run File</b> sous le fichier 
+  <b>Author.java</b> et <b>Book.java</b>.
+  <img src="client_author_book.PNG" />
+</p>
