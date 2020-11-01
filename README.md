@@ -9,9 +9,9 @@ il contient également une base de donnée mysql sur laquelle sont enregistrés 
 </p>
 <p>
   Création d'une table autor<br/>
-  <img src="author.PNG" />
+  <img src="table_author.PNG" />
 </p>
 <p>
   Création d'une table book<br/>
-  <img src="book.PNG" />
+  <img src="table_book.PNG" />
 </p>
