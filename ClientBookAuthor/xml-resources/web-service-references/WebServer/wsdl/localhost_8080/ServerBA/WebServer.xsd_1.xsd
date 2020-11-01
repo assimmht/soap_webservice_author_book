@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://auhorbook/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://auhorbook/">
+
+<xs:element name="delete" type="tns:delete"/>
+
+<xs:element name="deleteResponse" type="tns:deleteResponse"/>
+
+<xs:element name="deletelivre" type="tns:deletelivre"/>
+
+<xs:element name="deletelivreResponse" type="tns:deletelivreResponse"/>
+
+<xs:element name="insert" type="tns:insert"/>
+
+<xs:element name="insertResponse" type="tns:insertResponse"/>
+
+<xs:element name="insertlivre" type="tns:insertlivre"/>
+
+<xs:element name="insertlivreResponse" type="tns:insertlivreResponse"/>
+
+<xs:element name="update" type="tns:update"/>
+
+<xs:element name="updateResponse" type="tns:updateResponse"/>
+
+<xs:element name="updatelivre" type="tns:updatelivre"/>
+
+<xs:element name="updatelivreResponse" type="tns:updatelivreResponse"/>
+
+<xs:complexType name="updatelivre">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="title" type="xs:string" minOccurs="0"/>
+<xs:element name="isbn" type="xs:string" minOccurs="0"/>
+<xs:element name="id_author" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updatelivreResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="deletelivre">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deletelivreResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="update">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="lastname" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="insert">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="lastname" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="insertlivre">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="title" type="xs:string" minOccurs="0"/>
+<xs:element name="isbn" type="xs:string" minOccurs="0"/>
+<xs:element name="id_author" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertlivreResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="delete">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>
